@@ -163,7 +163,7 @@ http://mb.cloud.nifty.com/doc/current/rest/common/format.html#%E6%97%A5%E4%BB%98
 
 Send API Request with path and params. return HTTP::Response object.
 
-    my my $path = 'installations?limit=10';
+    my $path = 'installations?limit=10';
     my $res = $client->request( $path );
     if ( $res->is_error ) {
        die $res->status_line;
